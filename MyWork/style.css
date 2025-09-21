@@ -1,0 +1,68 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 28px;
+  font-style: italic;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #303030;
+}
+li {
+  font-size: 18px;
+}
+#author {
+  font-style: italic;
+  font-size: 16px;
+}
+#copyright {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+.related-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+.related-posts {
+  list-style: none;
+}
+aside {
+  background-color: #ffffff;
+  border-top: 5px solid #9b000096;
+}
+h1,
+h2,
+h3 {
+  color: #9a0000a4;
+}
+
+a:link {
+  text-decoration: none;
+  color: #9a0000a4;
+}
+a:hover {
+  color: #ff0000;
+}
+a:active {
+  color: #7d7d7d;
+  text-decoration: dashed tomato;
+}
