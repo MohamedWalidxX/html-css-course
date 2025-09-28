@@ -1,14 +1,28 @@
 body {
   font-family: sans-serif;
-  border: 3px solid #474747;
   height: 600px;
   line-height: 1.3;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 725px;
+  margin: 25px auto;
+  border: 4px solid #202020;
+}
 .card-title {
   font-size: 20px;
   background-color: #e0e0e0b4;
   text-align: center;
+}
+.shipping-info {
+  font-size: 12px;
+  color: #4c4c4c;
+  margin: 10px 0;
 }
 a:link {
   color: #3a3a3a;
@@ -18,21 +32,36 @@ a:hover {
   color: #9a0000a4;
   text-decoration: none;
 }
-
+.details {
+  margin: 20px 0;
+}
+li {
+  margin: 10px 30px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
 .btn-add {
   color: white;
   background-color: #000000;
-  width: 100px;
-  height: 20px;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
   font-size: 15px;
 }
 .btn-add:hover {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   text-decoration: none;
+  border: 3px solid black;
 }
 .btn-add:active {
   background-color: #9a0000a4;
   color: white;
   text-decoration: none;
+}
+.product-image {
+  width: 15%;
+  height: auto;
 }

@@ -1,3 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main-header {
+  background-color: #f7f7f7a4;
+  color: rgb(115, 0, 0);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.post-header {
+  margin-bottom: 30px;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
 h1,
 h2,
 h3,
@@ -15,9 +48,10 @@ h2 {
 }
 h3 {
   font-size: 30px;
+  margin-bottom: 30px;
 }
 h4 {
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -25,9 +59,19 @@ p {
   font-size: 20px;
   line-height: 1.6;
   color: #303030;
+  margin-bottom: 20px;
+}
+ul,
+ol {
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 li {
   font-size: 18px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 #author {
   font-style: italic;
@@ -48,6 +92,10 @@ li {
 aside {
   background-color: #ffffff;
   border-top: 5px solid #9b000096;
+  border-bottom: 5px solid #9b000096;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 500px;
 }
 h1,
 h2,
